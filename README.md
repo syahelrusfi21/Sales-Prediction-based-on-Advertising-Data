@@ -1,27 +1,26 @@
 # Sales Prediction based on Advertising Data
 
 ## Study Case
-Seorang pengusaha produk kesehatan, sedang mengalami problem pada penjualan yang terus menurun. Padahal dia telah melakukan berbagai strategi agar produknya bisa terjual dengan baik. Pengusaha tersebut memiliki dataset csv tentang kolom penjualan dan kolom iklan. Sebagai seorang machine learning engineer, apa yang akan kalian lakukan supaya dapat memberikan prediksi hubungan antara penjualan dan iklan kepada Pengusaha tersebut?
+A health product entrepreneur is facing a problem of declining sales, despite implementing various strategies to boost product sales. The entrepreneur possesses a CSV dataset containing columns for sales and advertising data. As a machine learning engineer, what would you do to provide predictions about the relationship between sales and advertising to the entrepreneur?
 
 ## Goals
-Memprediksi penjualan berdasarkan pengiklanan produk dibeberapa platform
+Predicting sales based on product advertising across multiple platforms.
 
 ## Objectives
-* Membuat model regresi linear untuk memprediksi penjualan
-* Apakah iklan di TV, Billboards, Google Ads, Social Media, Influencer Marketing, dan Affiliate Marketing berpengaruh terhadap naik turunnya penjualan?
-* Identifikasi platform-platform yang berpotensi memberikan keuntungan dalam promosi produk.
+- Building a linear regression model to predict sales
+- Determining whether advertisements on TV, Billboards, Google Ads, Social Media, Influencer Marketing, and Affiliate Marketing influence sales fluctuations
+- Identifying platforms that have the potential to provide significant advantages in product promotion.
 
 ## Result
-Berdasarkan hasil analisis yang telah dilakukan, diperoleh model regresi sebagai berikut:
+Based on the analysis conducted, the regression model obtained is as follows:
 
 **Product_Sold = -0.2172 + 0.2003 (TV) + 0.2983 (Billboards) + 0.1480 (Google_Ads) + 0.2468 (Social_Media) + 0.1201 (Influencer_Marketing) + 0.3932 (Affiliate_Marketing)**
 
-dengan nilai
+With the following evaluation metrics:
 
-Mean Absolute Error: 0.0008322734331092896
+- **Mean Absolute Error (MAE):** 0.0008322734331092896  
+- **Mean Squared Error (MSE):** 1.0241796771915838e-06  
+- **R-squared (R²) Score:** 0.9999659903345287  
 
-Mean Squared Error: 1.0241796771915838e-06
-
-R-squared (R2) Score: 0.9999659903345287
-
-Maka, dapat disimpulkan bahwa iklan melalui TV, Billboards, Google Ads, Social Media, Influencer Marketing, dan Affiliate Marketing memiliki pengaruh terhadap peningkatan atau penurunan penjualan produk. Oleh karena itu, disarankan untuk mempertimbangkan penggunaan platform-platform tersebut dalam strategi pemasaran produk, terutama dalam hal Affiliate Marketing yang berpotensi memberikan keuntungan yang signifikan.
+## Conclusion  
+Advertising through **TV**, **Billboards**, **Google Ads**, **Social Media**, **Influencer Marketing**, and **Affiliate Marketing** influences the increase or decrease in product sales. It is recommended to consider utilizing these platforms in the product marketing strategy, especially **Affiliate Marketing**, which shows significant potential to drive sales growth.
